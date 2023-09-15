@@ -12,6 +12,9 @@ namespace StudentProject.ViewModels
         [ObservableProperty]
         private List<string> _educationLevels = new EducationLevels().AllEducationLevels;
 
+        [ObservableProperty]
+        private string _selectedEducationLevel = string.Empty;
+
         public StudentViewModel()
         {
             student = new Student();
