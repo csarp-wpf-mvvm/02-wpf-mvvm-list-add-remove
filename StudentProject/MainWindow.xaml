@@ -52,6 +52,12 @@
             <ComboBoxItem>szakmai vizsga</ComboBoxItem>
         </ComboBox>
         <GroupBox Grid.Row="8" Grid.ColumnSpan="2">
+            <GroupBox.Header>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Icons\student.png" Width="32" ></Image>
+                    <Label>A diák adatok</Label>
+                </StackPanel>
+            </GroupBox.Header>
             <StackPanel Grid.Row="8" Grid.ColumnSpan="2" Margin="2 10 2 2">
                 <StackPanel Orientation="Horizontal">
                     <Label>Vezeték név:</Label>
