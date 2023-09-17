@@ -35,7 +35,7 @@ namespace StudentProject.Models
 
         public override string ToString()
         {
-            return $"{LastName} {FirstName} ({SchoolYear}.{SchoolClass})";
+            return $"{LastName} {FirstName} ({SchoolYear}.{SchoolClass}) - ({BirthsDay})";
 
         }
     }

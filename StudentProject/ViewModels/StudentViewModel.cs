@@ -26,7 +26,7 @@ namespace StudentProject.ViewModels
         public StudentViewModel()
         {
             SelectedStudent = new Student();
-            //Students.Add(new Student("Elek", "Teszt", System.DateTime.Now, 9, SchoolClassType.ClassA, ""));
+            Students.Add(new Student("Elek", "Teszt", System.DateTime.Now, 9, SchoolClassType.ClassA, ""));
         }
 
         [RelayCommand]
